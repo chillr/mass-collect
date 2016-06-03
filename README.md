@@ -141,18 +141,16 @@ Sample failure response
 ```
 
 ### Failure codes
-
-| Status code | Description |
-| -- | -- |
-| 50 | api_key param is missing |
-| 51 | api_secret_key param is missing |
-| 52 | name param is missing |
-| 53 | expiry_date param is missing |
-| 54 | customer param is missing |
-| 55 | expiry_date format errro (dd-mm-yyyy) |
-| 56 | api_secret_key mismatch error |
-| 57 | Merchant not found error |
-| 58 | error due invalid parameters |
-| 59 | Internal server error |
-| 60 | batch_id param is missing |
-| 61 | Batch not found |
+ 
+50 - api_key param is missing 
+51 - api_secret_key param is missing 
+52 - name param is missing 
+53 - expiry_date param is missing 
+54 - customer param is missing 
+55 - expiry_date format errro (dd-mm-yyyy) 
+56 - api_secret_key mismatch error 
+57 - Merchant not found error 
+58 - error due invalid parameters 
+59 - Internal server error 
+60 - batch_id param is missing 
+61 - Batch not found 
