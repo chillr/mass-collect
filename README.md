@@ -14,13 +14,15 @@ METHOD: **POST**
 
 Parameters:
 
-| Field | Description | Mandatory |
-| -- | -- | -- |
-| api_key | Your API key | Yes |
-| api_secret_key | Your API secret key | Yes |
-| name | Name of the batch | Yes |
-| expiry_date | Expiry date for the batch (dd-mm-yyyy) | Yes |
-| customers | Array of customer details | Yes |
+api_key - Your API key (mandatory)
+
+api_secret_key - Your API secret key (mandatory)
+
+name - Name of the batch (mandatory)
+
+expiry_date - Expiry date for the batch (dd-mm-yyyy) (mandatory)
+
+customers  - Array of customer details (mandatory)
 
 Sample request structure
 
@@ -143,14 +145,26 @@ Sample failure response
 ### Failure codes
  
 50 - api_key param is missing 
+
 51 - api_secret_key param is missing 
+
 52 - name param is missing 
+
 53 - expiry_date param is missing 
+
 54 - customer param is missing 
+
 55 - expiry_date format errro (dd-mm-yyyy) 
+
 56 - api_secret_key mismatch error 
+
 57 - Merchant not found error 
+
 58 - error due invalid parameters 
+
 59 - Internal server error 
+
 60 - batch_id param is missing 
+
 61 - Batch not found 
+
